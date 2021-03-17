@@ -1,0 +1,10 @@
+.people{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

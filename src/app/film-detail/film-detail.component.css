@@ -1,0 +1,19 @@
+.film-detail{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.characters{
+    width: 80vw;
+    height: auto;
+    display: flex;
+}
+
+.characters a {
+    margin: 5px;
+}

@@ -1,0 +1,7 @@
+.films{
+    height: 60rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

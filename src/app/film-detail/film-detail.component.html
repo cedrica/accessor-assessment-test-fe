@@ -1,0 +1,19 @@
+<div class="film-detail">
+    <h5><u>Filmdetails</u></h5>
+    <h1>{{film.title}}</h1>
+    <h5>Episode {{ convertToRom(film.episode_id) }} </h5>
+    <div class="media">
+        <div class="media-body" style="margin-right: 20px;">
+          <h4>Details</h4>
+          <p><b>Director: </b>{{film.director}}</p>      
+          <p><b>Producer: </b>{{film.producer}}</p>      
+          <p><b>Release Date: </b>{{film.release_date}}</p>     
+          <p>{{film.opening_crawl}}</p> 
+        </div>
+        <img src="../../assets/images/cover1.png" alt="{{film.title}}">
+    </div>
+    <h2 style="text-align:left">Characters</h2>
+    <div class="characters">
+        <a class="btn btn-primary" (click)=goToCharacter(character) *ngFor="let character of film.characters.slice(0,3)">{{findCharacterName(character)}}</a>
+    </div>
+</div>

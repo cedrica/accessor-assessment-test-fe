@@ -1,0 +1,11 @@
+.film {
+    min-height: 20rem;
+    height: auto;
+    width: 20rem;
+    margin: 5px;
+    cursor:pointer;
+}
+
+a:hover{
+    text-decoration: none;
+}

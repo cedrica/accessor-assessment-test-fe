@@ -1,0 +1,11 @@
+<!--<div (click)="goToFilmDetail(film)">-->
+<a class="card film" [routerLink]="['/film-detail']" [queryParams]="{url:film.url}" >
+  <img class="card-img-top" src="{{film.coverImage}}" alt="{{film.title}}">
+  <div class="card-body">
+    <h5 class="card-title">{{film.title}}</h5>
+    <p class="card-text"><b>Director:</b> {{film.director}}</p>
+    <p class="card-text"><b>Producer:</b> {{film.producer}}</p>
+    <p class="card-text"><b>Realease date:</b> {{film.release_date}}</p>
+    <a href="#" >More information</a>
+  </div>
+</a>
